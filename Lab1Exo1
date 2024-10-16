@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP1</title>
+</head>
+<body>
+    <h1>Heading One</h1>
+    <h2> level-two heading</h2>
+    <p> paragraphs <strong>strong paragraph</strong> for level-two heading.</p>
+    
+    <h2> level-two heading</h2>
+    <p> paragraph <i>using tags </i> for level-two heading.</p>
+    
+    <h2>Subheading Three</h2>
+    <p> paragraphs for <em> level-two heading.</em></p>
+     <li><a href="http://www.openstreetmap.org/">link1</a></li>
+    <h1>Heading Two</h1>
+    <h2> level-two heading</h2>
+    <p> paragraphs for level-two heading.</p>
+     <li><a href="http://www.openstreetmap.org/" target="_blank" rel="noopener noreferrer">link2</a></li>
+     <!--- without any target  the link opened in the same page however with the target _blank the link opened in other page-->
+
+    <h2> level-two heading</h2>
+    <p> paragraphs for level-two heading.</p>
+
+    <h1>Heading Three</h1>
+    <h2> level-two heading</h2>
+    <p> paragraphs using <em>importance</em> for level-two heading.</p>
+    
+    <h1>Heading Four</h1>
+    <h2> level-two heading</h2>
+    <p> paragraphs with <b> bolden tag</b> for level-two heading.</p>
+
+    <h1>Heading five</h1>
+    <h2 id="point1"> level-two heading</h2>
+    <p> paragraphs for level-two heading.</p>
+</body>
+</html>
