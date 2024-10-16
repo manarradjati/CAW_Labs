@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1 Exercise 4</title>
+    <link rel="stylesheet" type="text/css" href="Lab1Exo4.css">
+</head>
+<body>
+
+    <h1> Title</h1>
+
+    <h2>h2h2h2h2h2h2h2h2h2h2h2h2h2h</h2>
+    <p> paragraph.</p>
+
+    <h2>Text </h2>
+    <p>
+        paragraphparagraphparagraphparagraphparagraphparagraphparagraphparagraphparagraphparagraphparagraphvvparagraphparagraph.</p>
+
+</body>
+</html>
+/* 3. Apply these rules to the entire page */
+* {
+    margin: 50px;
+    background-color: #e8eae8;
+    color: #5d665b;
+}
+
+/* 4. Set specific margins for the <body> */
+body {
+    margin: 70px 50px 70px 120px;
+}
+body {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+/* 6. Set font size to small and line-height to 180% */
+body {
+    font-size: small;
+    line-height: 180%;
+}
+
+/* 7. Set specific font sizes and indentation */
+h2:first-of-type {
+    font-size: 75%;
+}
+p:first-of-type {
+    font-size: 70%;
+}
+p:nth-of-type(2) {
+    text-indent: 3em;
+}
+
+/* 8. Assign colors to <h1> and <h2>, and set font-family for <h2> */
+h1 {
+    color: #ffffdd;
+}
+
+h2 {
+    color: #966b72;
+    font-family: Georgia, serif;
+}
