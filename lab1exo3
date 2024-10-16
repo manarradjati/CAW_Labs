@@ -1,0 +1,97 @@
+/* 1. Color all <h2> headings purple */
+h2 {
+    color: purple;
+}
+
+/* 2. Give the <body> element a background color of #bdc3c7 */
+body {
+    background-color: #bdc3c7;
+}
+
+/* 3. Give the <h1> element the color #9b59b6 */
+h1 {
+    color: #9b59b6;
+}
+
+/* 4. Color all <h2> headings orange (this will override the previous purple color) */
+h2 {
+    color: orange;
+}
+
+/* 5. Color all <li> elements blue */
+li {
+    color: blue;
+}
+
+/* 6. Change the background of each paragraph to yellow */
+p {
+    background-color: yellow;
+}
+
+/* 7. Surround all inputs with a 3px red border */
+input {
+    border: 3px solid red;
+}
+
+/* 8. Give all elements with the class "hello" a pink background */
+.hello {
+    background-color: pink;
+}
+
+/* 9. Give the element with the id "special" a 2px blue border */
+#special {
+    border: 2px solid blue;
+}
+
+/* 10. Give all <p> elements inside <div> a font size of 25px */
+div p {
+    font-size: 25px;
+}
+
+/* 11. Give all inputs of type "text" a gray background */
+input[type="text"] {
+    background-color: gray;
+}
+
+/* 12. Give the 2 <p> elements inside the 3rd <div> a pink background */
+div:nth-of-type(3) p {
+    background-color: pink;
+}
+
+/* 13. Give the 2nd <p> element inside the 3rd <div> a 5px white border */
+div:nth-of-type(3) p:nth-of-type(2) {
+    border: 5px solid white;
+}
+
+/* 14. Make the <em> element in the 3rd <div> white with a font size of 20px */
+div:nth-of-type(3) em {
+    color: white;
+    font-size: 20px;
+}
+
+/* CHALLENGE */
+/* 15. Add a left margin of 50px to all checkboxes that are checked */
+input[type="checkbox"]:checked {
+    margin-left: 50px;
+}
+
+/* 16. Set the content of all <label> to UPPERCASE without changing the HTML */
+label {
+    text-transform: uppercase;
+}
+
+/* 17. Set the first letter of the element with the id 'special' to green and with a font size of 100px */
+#special::first-letter {
+    color: green;
+    font-size: 100px;
+}
+
+/* 18. Change the color of all <h1> elements when the mouse hovers over them */
+h1:hover {
+    color: red;
+}
+
+/* 19. Change the color of all <a> elements that have been visited to gray */
+a:visited {
+    color: gray;
+}
